@@ -1,5 +1,22 @@
-/* KABULOSO GOLD EDITION - TESTE DE CARREGAMENTO */
+
+/* KABULOSO GOLD EDITION - TESTE DE POSICIONAMENTO */
 
 .controller.ds4 {
-    outline: 3px solid #FFD700 !important;
+    position: relative !important;
+    outline: none !important;
+}
+
+.controller.ds4::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: url("https://raw.githubusercontent.com/oc4bul0s0br4b0-tech/kabuloso-skin/main/kabuloso-gold.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    pointer-events: none;
+    z-index: 999;
 }
