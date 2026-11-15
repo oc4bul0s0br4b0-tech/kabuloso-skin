@@ -6,7 +6,7 @@
 
 /* Remover contorno quadrado do teste */
 .controller.ds4 {
-    outline: none !important;
+  outline: 3px solid #ffd700 !important;
 }
 
 /* Preparar a área do controle para a arte */
