@@ -4,14 +4,10 @@
    DUALSHOCK 4 - SKIN BASE
    ========================================== */
 
-/* Remover contorno quadrado do teste */
-.controller.ds4 {
-  outline: 3px solid #ffd700 !important;
-}
-
-/* Preparar a área do controle para a arte */
+/* Preparar a área do controle */
 .controller.ds4 {
     position: relative;
+    outline: none !important;
 }
 
 /* Arte KABULOSO GOLD */
