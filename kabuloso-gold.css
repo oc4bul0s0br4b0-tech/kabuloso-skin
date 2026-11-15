@@ -1,5 +1,5 @@
 
-/* KABULOSO GOLD EDITION - TESTE DE POSICIONAMENTO */
+/* KABULOSO GOLD - TESTE DE CENTRALIZACAO */
 
 .controller.ds4 {
     position: relative !important;
@@ -9,14 +9,11 @@
 .controller.ds4::after {
     content: "";
     position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
+    inset: 0;
     background-image: url("https://raw.githubusercontent.com/oc4bul0s0br4b0-tech/kabuloso-skin/main/kabuloso-gold.png");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
     background-size: contain;
     pointer-events: none;
-    z-index: 0;;
+    z-index: 999;
 }
