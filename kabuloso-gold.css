@@ -1,19 +1,28 @@
 
-/* KABULOSO GOLD - TESTE DE CENTRALIZACAO */
+/* ==========================================
+   KABULOSO GOLD EDITION
+   DUALSHOCK 4 - SKIN BASE
+   ========================================== */
 
+/* Remover contorno quadrado do teste */
 .controller.ds4 {
-    position: relative !important;
     outline: none !important;
 }
 
-.controller.ds4::after {
+/* Preparar a área do controle para a arte */
+.controller.ds4 {
+    position: relative;
+}
+
+/* Arte KABULOSO GOLD */
+.controller.ds4::before {
     content: "";
     position: absolute;
     inset: 0;
     background-image: url("https://raw.githubusercontent.com/oc4bul0s0br4b0-tech/kabuloso-skin/main/kabuloso-gold.png");
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
     background-size: contain;
     pointer-events: none;
-    z-index: 999;
+    z-index: 10;
 }
